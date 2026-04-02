@@ -14,3 +14,6 @@ def run_game():
         if check_answer(answer, q["a"]):
             score += 1
     return score
+
+if __name__ == "__main__":
+    print("Score:", run_game())
